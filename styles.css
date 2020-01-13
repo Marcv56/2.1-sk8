@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color:
+}
+
+/************************************HEADER************************************/
+
+.header {
+  padding-bottom: 3%;
+}
+
+
+/******************************************* main *****************************/
+.container {
+
+}
+
+.row{
+  border-style: ;
+
+}
+
+/************************ article *********************************************/
+ div.article{
+   border-style: dotted;
+   width: 25%;
+ }
+ div .art-row{
+   width: 50%;
+ }
