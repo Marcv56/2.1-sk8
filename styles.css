@@ -53,13 +53,30 @@ a {
   padding-left: 10px;
    margin-bottom: 45px;
    margin-top: 15px;
+
 }
+h2 {
+
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+   font-size: 8px;
+   color: darkgray;
+}
+
+
 /***************************SKATEBOARDERS *************************************/
 #skateboarders   {
   background-color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
+
 }
+
+
+
 
 .skateboarders-image {
   height: 260px;
