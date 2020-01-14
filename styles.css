@@ -21,8 +21,15 @@ ul {
 a {
   text-decoration: none;
 }
+/* navigation */
 
-/***************************************** CAROUSEL */
+
+
+
+
+
+
+/***************************************** CAROUSEL****************************/
 
 #carousel {
   height: 30vw;
@@ -30,7 +37,6 @@ a {
   overflow: hidden;
   background: url('./images/top-image.png') no-repeat 35% 25%;
   border: solid 5px #fff;
-
   position: relative;
 }
 
