@@ -11,59 +11,109 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 
-<!-- *********************************************************************** -->
-<header>
-  <div class="header">
-    <div class="row">
-      <div class="col-sm">
-        One of three columns
-      </div>
-      <div class="col-sm">
-        One of three columns
-      </div>
-      <div class="col-sm">
-        One of three columns
-      </div>
-    </div>
-  </div>
-</header>
-<!-- *********************************************************************** -->
-
 <body>
+<!-- this sets the entire document-->
   <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        One of three columns
-      </div>
-
-      <div class="row">
-        <div class="col-12-md">
-          <header> this is a header</header>
-          <p>I wrote this text because I felt like it.</p>
-          </div>
-          </div>
-          <div class="col-12-md">
-            <header> this is a header</header>
-            <p>I wrote this text because I felt like it.</p>
-            </div>
-            </div>
-
-            <div class="col-12-md">
-              <header> this is a header</header>
-              <p>I wrote this text because I felt like it.</p>
-              </div>
-              </div>
-
-      <div class="col-sm">
-        One of three columns
+<!-- this is for the top of the document no header was needed -->
+    <div id="social-media" class="row no-gutters">
+      <div class="col-lg-2 offset-8 subscribe-text">Subscribe</div>
+      <div class="col-lg-2 icons">
+        <div class="row no-gutters float-right">
+          <div class="col social-media-icon"><i class="fab fa-facebook-square"></i></div>
+          <div class="col social-media-icon"><i class="fas fa-rss-square"></i></div>
+          <div class="col social-media-icon"><i class="fab fa-twitter-square"></i></div>
+          <div class="col social-media-icon"><i class="fab fa-youtube-square"></i></div>
+        </div>
       </div>
     </div>
+
+    <div id="navigation" class="row no-gutters">
+      <p class="col-12 col-md"><a href="#news">&ndash;<span><button type="button" class="btn btn-danger">sk8 news</button></span>&ndash;</a></p>
+      <p class="col-12 col-md"><a href="#skateboarders">&ndash;<span><button type="button" class="btn btn-danger">skateboaders</button></span>&ndash;</a></p>
+      <p class="col-12 col-md"><a href="#skateboards">&ndash;<span><button type="button" class="btn btn-danger">board design</button></span>&ndash;</a></p>
+      <p class="col-12 col-md"><a href="#ontact">&ndash;<span><button type="button" class="btn btn-danger">contact us</button></span>&ndash;</a></p>
+    </div>
+
+    <div id="carousel" class="row no-gutters">
+      <div class="grid"><img src="./images/grid.png" alt=""></div>
+      <div class="logo"><img src="./images/peralta-logo.png" alt=""></div>
+    </div>
+
+    <div id="news" class="row">
+      <div class="col-12 col-md">
+        <article>
+          <h2>Tony Hawk Foundation</h2>
+          <time datetime="2018-06-28">June 28, 2018</time>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error incidunt adipisci corrupti, rerum, architecto doloremque optio recusandae perspiciatis id, aperiam amet officiis unde. Facere, praesentium ducimus saepe nam ab.</p>
+          <button class="btn btn-link">Read More</button>
+        </article>
+      </div>
+      <div class="col-12 col-md">
+        <article>
+          <h2>Tony Hawk Foundation</h2>
+          <time datetime="2018-06-28">June 28, 2018</time>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error incidunt adipisci corrupti, rerum, architecto doloremque optio recusandae perspiciatis id, aperiam amet officiis unde. Facere, praesentium ducimus saepe nam ab.</p>
+          <button class="btn btn-link">Read More</button>
+        </article>
+      </div>
+      <div class="col-12 col-md">
+        <article>
+          <h2>Tony Hawk Foundation</h2>
+          <time datetime="2018-06-28">June 28, 2018</time>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error incidunt adipisci corrupti, rerum, architecto doloremque optio recusandae perspiciatis id, aperiam amet officiis unde. Facere, praesentium ducimus saepe nam ab.</p>
+          <button class="btn btn-link">Read More</button>
+        </article>
+      </div>
+    </div>
+
+    <div id="skateboaders" class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col skateboarder"><img src="./images/sk8er-4.png" alt="lance mountain"><span class="skateboarder-name">Lance Mountain</span></div>
+          <div class="col skateboarder"><img src="./images/sk8er-3.png" alt="rodney mullen"><span class="skateboarder-name">Rodney Mullen</span></div>
+          <div class="w-100"></div>
+          <div class="col-12 skateboarder skateboarder_steve"><img src="./images/sk8er-1.png" alt="steve caballero"><span class="skateboarder-name">STEVE CABALLERO</span></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="col skateboarder skateboarder_tommy"><img src="./images/sk8er-2.png" alt="tommy guerrero"><span class="skateboarder-name">Tommy Guerrero</span></div>
+      </div>
+    </div>
+
+    <div id="boards" class="row no-gutters justify-content-around">
+      <div class="boards-image">
+        <img src="images/sk8-1.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-2.png" alt="alternate goes here">
+      </div>
+      <div class="boards-image">
+        <img src="images/sk8-3.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-4.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-5.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-6.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-7.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-8.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-9.png" alt="alternate goes here">
+      </div>
+        <div class="boards-image">
+        <img src="images/sk8-10.png" alt="alternate goes here">
+      </div>
+    </div>
+
   </div>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 </body>
 
 </html>

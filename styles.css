@@ -1,37 +1,94 @@
+/***************************************** GLOBAL */
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  background: url("./images/bg.jpg") no-repeat;
+  background-size: cover;
 }
 
 img {
   width: 100%;
 }
 
-body {
-  background-color:
+ul {
+  list-style: none;
+  padding-left: unset;
 }
 
-/************************************HEADER************************************/
+a {
+  text-decoration: none;
+}
 
-.header {
-  padding-bottom: 3%;
+/***************************************** CAROUSEL */
+
+#carousel {
+  height: 30vw;
+  min-height: 300px;
+  overflow: hidden;
+  background: url('./images/top-image.png') no-repeat 35% 25%;
+  border: solid 5px #fff;
+
+  position: relative;
+}
+
+#carousel > .grid {
+  opacity: .3;
+}
+
+#carousel > .logo {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/***************************************** ARTICLES **************************/
+
+#news article {
+  background-color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+   margin-bottom: 45px;
+   margin-top: 15px;
+}
+/***************************SKATEBOARDERS *************************************/
+#skateboarders   {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skateboarders-image {
+  height: 260px;
+  width: 62px;
+}
+
+.skateboarders-image img {
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: left top;
+  width: 275px;
 }
 
 
-/******************************************* main *****************************/
-.container {
 
+/****************************BOARDS *******************************************/
+
+#boards {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.row{
-  border-style: ;
-
+.boards-image {
+  height: 260px;
+  width: 62px;
 }
 
-/************************ article *********************************************/
- div.article{
-   border-style: dotted;
-   width: 25%;
- }
- div .art-row{
-   width: 50%;
- }
+.boards-image img {
+  transform: rotate(90deg) translateY(-100%);
+  transform-origin: left top;
+  width: 275px;
+}
